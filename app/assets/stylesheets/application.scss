@@ -15,3 +15,37 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+    background-color: #1d2021;
+}
+
+.navbar,
+.jumbotron {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+.btn,
+.form-control,
+.navbar,
+.jumbotron {
+    border-radius: 0px !important;
+    border: none
+}
+
+.btn,
+.btn-primary {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    &:hover {
+        background-color: #504945;
+        color: #ebdbb2;
+    }
+}
+
+.form-control {
+    background-color: #1d2021;
+    color: #7c6f64;
+}
+
